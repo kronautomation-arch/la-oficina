@@ -1,0 +1,109 @@
+{
+  "last_updated": "2026-03-21T08:00:00",
+  "employees": [
+    {
+      "id": "bot-ventas",
+      "name": "Carlos Bot",
+      "role": "Vendedor Estrella",
+      "department": "Ventas",
+      "avatar_emoji": "🤖",
+      "status": "working",
+      "mood": "productive",
+      "current_task": "Enviando cotizaciones por WhatsApp",
+      "tasks_completed_today": 47,
+      "tasks_completed_total": 1283,
+      "uptime_today": "6h 32m",
+      "last_activity": "2026-03-21T07:58:12",
+      "started_at": "2026-03-21T01:30:00",
+      "schedule": "01:30 - 23:00",
+      "recent_logs": [
+        {"time": "07:58", "message": "Cotización #482 enviada a +52 55 1234 5678"},
+        {"time": "07:45", "message": "Procesé 3 leads nuevos de Instagram"},
+        {"time": "07:30", "message": "Sincronicé inventario con POS"}
+      ],
+      "metrics": {
+        "success_rate": 98.5,
+        "avg_response_time": "1.2s",
+        "errors_today": 1
+      }
+    },
+    {
+      "id": "sync-inventario",
+      "name": "Diana Sync",
+      "role": "Coordinadora de Inventario",
+      "department": "Operaciones",
+      "avatar_emoji": "📦",
+      "status": "working",
+      "mood": "focused",
+      "current_task": "Sincronizando stock entre POS y tienda online",
+      "tasks_completed_today": 12,
+      "tasks_completed_total": 856,
+      "uptime_today": "8h 00m",
+      "last_activity": "2026-03-21T07:55:00",
+      "started_at": "2026-03-21T00:00:00",
+      "schedule": "00:00 - 23:59",
+      "recent_logs": [
+        {"time": "07:55", "message": "Stock actualizado: 24 productos modificados"},
+        {"time": "07:30", "message": "Sync completo — 0 discrepancias"},
+        {"time": "07:00", "message": "Iniciando ciclo de sincronización #12"}
+      ],
+      "metrics": {
+        "success_rate": 99.8,
+        "avg_response_time": "3.4s",
+        "errors_today": 0
+      }
+    },
+    {
+      "id": "campana-manager",
+      "name": "Miguel Campaña",
+      "role": "Director de Marketing",
+      "department": "Marketing",
+      "avatar_emoji": "📢",
+      "status": "idle",
+      "mood": "relaxed",
+      "current_task": "Esperando próxima campaña programada (14:00)",
+      "tasks_completed_today": 3,
+      "tasks_completed_total": 234,
+      "uptime_today": "8h 00m",
+      "last_activity": "2026-03-21T06:00:00",
+      "started_at": "2026-03-21T00:00:00",
+      "schedule": "06:00, 14:00, 20:00",
+      "recent_logs": [
+        {"time": "06:00", "message": "Campaña matutina enviada a 150 contactos"},
+        {"time": "05:55", "message": "Segmentos cargados: VIP, Nuevos, Recompra"},
+        {"time": "05:50", "message": "Preparando plantillas de mensaje"}
+      ],
+      "metrics": {
+        "success_rate": 97.2,
+        "avg_response_time": "0.8s",
+        "errors_today": 0
+      }
+    },
+    {
+      "id": "reporte-bot",
+      "name": "Ana Reportes",
+      "role": "Analista de Datos",
+      "department": "Finanzas",
+      "avatar_emoji": "📊",
+      "status": "sleeping",
+      "mood": "resting",
+      "current_task": "Próximo reporte a las 23:00",
+      "tasks_completed_today": 1,
+      "tasks_completed_total": 365,
+      "uptime_today": "0h 15m",
+      "last_activity": "2026-03-21T00:15:00",
+      "started_at": "2026-03-21T00:00:00",
+      "schedule": "00:00, 23:00",
+      "recent_logs": [
+        {"time": "00:15", "message": "Reporte diario generado y enviado por email"},
+        {"time": "00:05", "message": "Calculando métricas de ventas del día"},
+        {"time": "00:00", "message": "Iniciando generación de reporte nocturno"}
+      ],
+      "metrics": {
+        "success_rate": 100,
+        "avg_response_time": "12.5s",
+        "errors_today": 0
+      }
+    }
+  ]
+}
