@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-30T11:26:52",
+  "last_updated": "2026-03-30T11:30:07",
   "automations": [
     {
       "id": "campana-tenis",
-      "name": "Miguel Campaña",
+      "name": "Mensaje Masivo Guffo MX",
       "description": "Mensajes Masivos WhatsApp",
       "icon": "📢",
       "status": "idle",
