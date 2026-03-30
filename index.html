@@ -555,7 +555,7 @@
         }
 
         .machine-card.expanded .machine-details {
-            max-height: 800px;
+            max-height: 2000px;
         }
 
         .details-inner {
@@ -913,9 +913,66 @@
         }
 
         @media (max-width: 600px) {
-            .container { padding: 12px; }
-            .header { padding: 14px 18px; flex-direction: column; gap: 12px; align-items: flex-start; }
+            .container { padding: 10px; }
+            .header { padding: 12px 16px; flex-direction: column; gap: 10px; align-items: flex-start; }
+            .header-title h1 { font-size: 18px; letter-spacing: 2px; }
+            .header-title p { font-size: 9px; letter-spacing: 1px; }
+            .header-right { width: 100%; justify-content: space-between; }
             .stats-strip { grid-template-columns: repeat(2, 1fr); }
+            .stat-value { font-size: 20px; }
+            .stat-cell { padding: 12px 14px; }
+
+            .section-header h2 { font-size: 11px; letter-spacing: 2px; }
+
+            .machine-main { grid-template-columns: 44px 1fr; gap: 10px; padding: 14px 16px; }
+            .machine-icon-frame { width: 44px; height: 44px; font-size: 20px; }
+            .machine-name { font-size: 12px; }
+            .machine-desc { font-size: 11px; }
+            .machine-meta { flex-wrap: wrap; gap: 8px; font-size: 10px; }
+
+            .details-inner { padding: 14px 16px; }
+            .details-grid { grid-template-columns: 1fr; gap: 16px; }
+
+            .timeline-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+            .timeline-title { font-size: 9px; }
+            .timeline-legend { font-size: 9px; }
+
+            .history-calendar { gap: 2px; overflow-x: auto; }
+            .cal-day-header { font-size: 7px; letter-spacing: 0; padding: 2px 0; }
+            .cal-day .cal-date { font-size: 9px; }
+            .cal-day { min-width: 0; }
+
+            .details-inner { padding: 12px; }
+            .diagnostics { padding: 10px; width: 100%; box-sizing: border-box; }
+            .diag-title { font-size: 9px; letter-spacing: 1.5px; margin-bottom: 10px; }
+            .diag-rows { gap: 4px; width: 100%; }
+            .diag-row { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 4px 0; border-bottom: 1px solid rgba(42,46,56,0.3); }
+            .diag-key { font-size: 9px; flex: 1; min-width: 0; }
+            .diag-val { font-size: 11px; padding-left: 8px; flex-shrink: 0; }
+
+            .exec-item { flex-wrap: wrap; }
+            .exec-summary { width: 100%; order: 5; margin-top: 2px; font-size: 9px; white-space: normal; }
+
+            .exec-list-title { font-size: 8px; }
+            .exec-item { gap: 6px; padding: 6px 0; font-size: 10px; }
+            .exec-date { min-width: 50px; font-size: 10px; }
+            .exec-summary { font-size: 10px; }
+            .exec-duration { font-size: 10px; }
+
+            .footer { flex-direction: column; gap: 6px; text-align: center; font-size: 9px; }
+
+            /* Tooltip en mobile: más ancho y reposicionado */
+            .cal-day .tooltip {
+                position: fixed;
+                top: auto;
+                bottom: 20px;
+                left: 10px;
+                right: 10px;
+                transform: none;
+                z-index: 1000;
+                font-size: 12px;
+            }
+            .cal-day .tooltip::after { display: none; }
         }
 
         /* ═══ LOAD ANIMATION ═══ */
