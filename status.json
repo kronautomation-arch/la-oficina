@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-30T09:41:05",
+  "last_updated": "2026-03-30T11:10:28",
   "automations": [
     {
       "id": "campana-tenis",
-      "name": "Campaña WhatsApp Tenis",
-      "description": "Envía 50 mensajes diarios a clientes de tenis via Botcake",
+      "name": "Miguel Campaña",
+      "description": "Mensajes Masivos WhatsApp",
       "icon": "📢",
       "status": "idle",
       "schedule": "10:00 diario",
-      "current_task": "Próxima ejecución: mañana 10:00",
+      "current_task": "Completado — próxima ejecución mañana 10:00",
       "total_tasks": 450,
       "total_executions": 9,
       "history": [
@@ -19,7 +19,7 @@
           "errors": 0,
           "duration": "1m 32s",
           "summary": "50/50 mensajes enviados — Progreso: 450/5033 (8.9%)",
-          "sales": 1
+          "sales": 0
         },
         {
           "date": "2026-03-28",
@@ -46,7 +46,7 @@
           "errors": 0,
           "duration": "1m 22s",
           "summary": "50/50 mensajes enviados — Progreso: 300/5033 (6.0%)",
-          "sales": 3
+          "sales": 0
         },
         {
           "date": "2026-03-25",
@@ -55,7 +55,7 @@
           "errors": 0,
           "duration": "1m 40s",
           "summary": "50/50 mensajes enviados — Progreso: 250/5033 (5.0%)",
-          "sales": 1
+          "sales": 0
         },
         {
           "date": "2026-03-24",
@@ -64,7 +64,7 @@
           "errors": 0,
           "duration": "1m 18s",
           "summary": "50/50 mensajes enviados — Progreso: 200/5033 (4.0%)",
-          "sales": 1
+          "sales": 0
         },
         {
           "date": "2026-03-23",
@@ -73,7 +73,7 @@
           "errors": 0,
           "duration": "1m 45s",
           "summary": "50/50 mensajes enviados — Progreso: 150/5033 (3.0%)",
-          "sales": 1
+          "sales": 0
         },
         {
           "date": "2026-03-22",
@@ -91,26 +91,20 @@
           "errors": 0,
           "duration": "1m 25s",
           "summary": "50/50 mensajes enviados — Progreso: 50/5033 (1.0%)",
-          "sales": 2
+          "sales": 0
         }
       ],
       "metrics": {
-        "success_rate": 100,
+        "success_rate": 100.0,
         "avg_duration": "1m 31s",
-        "streak": 9
+        "streak": 9,
+        "errors_today": 0
       },
       "sales": {
-        "total": 9,
-        "conversion_rate": 2.0,
-        "by_date": {
-          "2026-03-20": 2,
-          "2026-03-23": 1,
-          "2026-03-24": 1,
-          "2026-03-25": 1,
-          "2026-03-26": 3,
-          "2026-03-29": 1
-        },
-        "last_checked": "2026-03-30T09:41:05"
+        "total": 0,
+        "conversion_rate": 0.0,
+        "by_date": {},
+        "last_checked": "2026-03-30T11:10:28"
       }
     }
   ]
