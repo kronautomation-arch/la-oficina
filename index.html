@@ -1011,9 +1011,9 @@
                 <div class="stat-unit">promedio global</div>
             </div>
             <div class="stat-cell">
-                <div class="stat-label">Tareas Totales</div>
-                <div class="stat-value" id="statTasks">—</div>
-                <div class="stat-unit">ejecutadas</div>
+                <div class="stat-label">Ventas Totales</div>
+                <div class="stat-value" id="statSales">—</div>
+                <div class="stat-unit">de la campaña</div>
             </div>
         </div>
 
@@ -1099,6 +1099,7 @@
                             <div class="tooltip-row"><span class="tooltip-label">Tareas</span> <span class="tooltip-val">${entry.tasks}</span></div>
                             <div class="tooltip-row"><span class="tooltip-label">Errores</span> <span class="tooltip-val">${entry.errors}</span></div>
                             <div class="tooltip-row"><span class="tooltip-label">Duración</span> <span class="tooltip-val">${entry.duration}</span></div>
+                            <div class="tooltip-row"><span class="tooltip-label">Ventas</span> <span class="tooltip-val" style="color:var(--green)">${entry.sales || 0}</span></div>
                             ${entry.summary ? `<div class="tooltip-row"><span class="tooltip-label">Resumen</span> <span class="tooltip-val">${entry.summary}</span></div>` : ''}
                         </div>`;
                 }
@@ -1147,8 +1148,12 @@
                         <div class="machine-right">
                             <div class="machine-quick-stats">
                                 <div class="quick-stat">
-                                    <div class="quick-stat-value" style="color:var(--cyan)">${successRate}%</div>
-                                    <div class="quick-stat-label">Éxito</div>
+                                    <div class="quick-stat-value" style="color:var(--green)">${bot.sales?.total || 0}</div>
+                                    <div class="quick-stat-label">Ventas</div>
+                                </div>
+                                <div class="quick-stat">
+                                    <div class="quick-stat-value" style="color:var(--cyan)">${bot.sales?.conversion_rate || 0}%</div>
+                                    <div class="quick-stat-label">Conversión</div>
                                 </div>
                                 <div class="quick-stat">
                                     <div class="quick-stat-value">${streak}</div>
@@ -1184,6 +1189,14 @@
                                     <div class="diag-title">Diagnóstico</div>
                                     <div class="diag-rows">
                                         <div class="diag-row">
+                                            <span class="diag-key">▸ Ventas Totales</span>
+                                            <span class="diag-val" style="color:var(--green)">${bot.sales?.total || 0}</span>
+                                        </div>
+                                        <div class="diag-row">
+                                            <span class="diag-key">▸ Tasa de Conversión</span>
+                                            <span class="diag-val" style="color:var(--green)">${bot.sales?.conversion_rate || 0}%</span>
+                                        </div>
+                                        <div class="diag-row">
                                             <span class="diag-key">▸ Tasa de Éxito</span>
                                             <span class="diag-val ${successRate >= 95 ? 'good' : successRate >= 80 ? 'warn' : 'bad'}">${successRate}%</span>
                                         </div>
@@ -1216,6 +1229,7 @@
                                                 <div class="exec-dot ${h.status}"></div>
                                                 <span class="exec-date">${h.date.slice(5)}</span>
                                                 <span class="exec-summary">${h.summary || '—'}</span>
+                                                <span style="color:var(--green);font-family:'Share Tech Mono',monospace;font-size:11px;min-width:20px;text-align:right">${h.sales || 0}v</span>
                                                 <span class="exec-duration">${h.duration}</span>
                                             </div>
                                         `).join('')}
@@ -1251,10 +1265,12 @@
 
             const avgRate = total > 0 ? (totalRate / total).toFixed(1) : 0;
 
+            const totalSales = automations.reduce((s, a) => s + (a.sales?.total || 0), 0);
+
             document.getElementById('statTotal').textContent = total;
             document.getElementById('statToday').textContent = todayExecs;
             document.getElementById('statSuccess').textContent = avgRate + '%';
-            document.getElementById('statTasks').textContent = totalTasks.toLocaleString();
+            document.getElementById('statSales').textContent = totalSales;
             document.getElementById('machineCount').textContent = total;
         }
 

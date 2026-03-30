@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T09:30:00",
+  "last_updated": "2026-03-30T09:41:05",
   "automations": [
     {
       "id": "campana-tenis",
@@ -12,20 +12,105 @@
       "total_tasks": 450,
       "total_executions": 9,
       "history": [
-        {"date": "2026-03-29", "status": "success", "tasks": 50, "errors": 0, "duration": "1m 32s", "summary": "50/50 mensajes enviados — Progreso: 450/5033 (8.9%)"},
-        {"date": "2026-03-28", "status": "success", "tasks": 50, "errors": 0, "duration": "1m 28s", "summary": "50/50 mensajes enviados — Progreso: 400/5033 (7.9%)"},
-        {"date": "2026-03-27", "status": "success", "tasks": 50, "errors": 0, "duration": "1m 35s", "summary": "50/50 mensajes enviados — Progreso: 350/5033 (7.0%)"},
-        {"date": "2026-03-26", "status": "success", "tasks": 50, "errors": 0, "duration": "1m 22s", "summary": "50/50 mensajes enviados — Progreso: 300/5033 (6.0%)"},
-        {"date": "2026-03-25", "status": "success", "tasks": 50, "errors": 0, "duration": "1m 40s", "summary": "50/50 mensajes enviados — Progreso: 250/5033 (5.0%)"},
-        {"date": "2026-03-24", "status": "success", "tasks": 50, "errors": 0, "duration": "1m 18s", "summary": "50/50 mensajes enviados — Progreso: 200/5033 (4.0%)"},
-        {"date": "2026-03-23", "status": "success", "tasks": 50, "errors": 0, "duration": "1m 45s", "summary": "50/50 mensajes enviados — Progreso: 150/5033 (3.0%)"},
-        {"date": "2026-03-22", "status": "success", "tasks": 50, "errors": 0, "duration": "1m 30s", "summary": "50/50 mensajes enviados — Progreso: 100/5033 (2.0%)"},
-        {"date": "2026-03-20", "status": "success", "tasks": 50, "errors": 0, "duration": "1m 25s", "summary": "50/50 mensajes enviados — Progreso: 50/5033 (1.0%)"}
+        {
+          "date": "2026-03-29",
+          "status": "success",
+          "tasks": 50,
+          "errors": 0,
+          "duration": "1m 32s",
+          "summary": "50/50 mensajes enviados — Progreso: 450/5033 (8.9%)",
+          "sales": 1
+        },
+        {
+          "date": "2026-03-28",
+          "status": "success",
+          "tasks": 50,
+          "errors": 0,
+          "duration": "1m 28s",
+          "summary": "50/50 mensajes enviados — Progreso: 400/5033 (7.9%)",
+          "sales": 0
+        },
+        {
+          "date": "2026-03-27",
+          "status": "success",
+          "tasks": 50,
+          "errors": 0,
+          "duration": "1m 35s",
+          "summary": "50/50 mensajes enviados — Progreso: 350/5033 (7.0%)",
+          "sales": 0
+        },
+        {
+          "date": "2026-03-26",
+          "status": "success",
+          "tasks": 50,
+          "errors": 0,
+          "duration": "1m 22s",
+          "summary": "50/50 mensajes enviados — Progreso: 300/5033 (6.0%)",
+          "sales": 3
+        },
+        {
+          "date": "2026-03-25",
+          "status": "success",
+          "tasks": 50,
+          "errors": 0,
+          "duration": "1m 40s",
+          "summary": "50/50 mensajes enviados — Progreso: 250/5033 (5.0%)",
+          "sales": 1
+        },
+        {
+          "date": "2026-03-24",
+          "status": "success",
+          "tasks": 50,
+          "errors": 0,
+          "duration": "1m 18s",
+          "summary": "50/50 mensajes enviados — Progreso: 200/5033 (4.0%)",
+          "sales": 1
+        },
+        {
+          "date": "2026-03-23",
+          "status": "success",
+          "tasks": 50,
+          "errors": 0,
+          "duration": "1m 45s",
+          "summary": "50/50 mensajes enviados — Progreso: 150/5033 (3.0%)",
+          "sales": 1
+        },
+        {
+          "date": "2026-03-22",
+          "status": "success",
+          "tasks": 50,
+          "errors": 0,
+          "duration": "1m 30s",
+          "summary": "50/50 mensajes enviados — Progreso: 100/5033 (2.0%)",
+          "sales": 0
+        },
+        {
+          "date": "2026-03-20",
+          "status": "success",
+          "tasks": 50,
+          "errors": 0,
+          "duration": "1m 25s",
+          "summary": "50/50 mensajes enviados — Progreso: 50/5033 (1.0%)",
+          "sales": 2
+        }
       ],
       "metrics": {
         "success_rate": 100,
         "avg_duration": "1m 31s",
         "streak": 9
+      },
+      "sales": {
+        "total": 9,
+        "conversion_rate": 2.0,
+        "by_date": {
+          "2026-03-20": 2,
+          "2026-03-23": 1,
+          "2026-03-24": 1,
+          "2026-03-25": 1,
+          "2026-03-26": 3,
+          "2026-03-29": 1
+        },
+        "last_checked": "2026-03-30T09:41:05"
       }
     }
   ]
