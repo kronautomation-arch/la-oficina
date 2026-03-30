@@ -1011,9 +1011,9 @@
                 <div class="stat-unit">promedio global</div>
             </div>
             <div class="stat-cell">
-                <div class="stat-label">Ventas Totales</div>
-                <div class="stat-value" id="statSales">—</div>
-                <div class="stat-unit">de la campaña</div>
+                <div class="stat-label">Tareas Totales</div>
+                <div class="stat-value" id="statTasks">—</div>
+                <div class="stat-unit">ejecutadas</div>
             </div>
         </div>
 
@@ -1265,12 +1265,10 @@
 
             const avgRate = total > 0 ? (totalRate / total).toFixed(1) : 0;
 
-            const totalSales = automations.reduce((s, a) => s + (a.sales?.total || 0), 0);
-
             document.getElementById('statTotal').textContent = total;
             document.getElementById('statToday').textContent = todayExecs;
             document.getElementById('statSuccess').textContent = avgRate + '%';
-            document.getElementById('statSales').textContent = totalSales;
+            document.getElementById('statTasks').textContent = totalTasks.toLocaleString();
             document.getElementById('machineCount').textContent = total;
         }
 
