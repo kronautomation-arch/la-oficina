@@ -233,6 +233,131 @@
         "last_checked": "2026-04-12T10:01:33"
       }
     }
+    ,
+    {
+      "id": "reporte-marfil",
+      "name": "Dashboard Marfil",
+      "description": "Dashboard ejecutivo: Shopify + envia.com + Meta Ads + MercadoLibre + POS → GitHub Pages",
+      "icon": "📊",
+      "status": "working",
+      "schedule": "8am, 9am, 10am, 11am, 2pm COT",
+      "current_task": "Actualización automática 5x/día via GitHub Actions",
+      "total_tasks": 55,
+      "total_executions": 55,
+      "history": [
+        {
+          "date": "2026-04-12",
+          "status": "success",
+          "tasks": 5,
+          "errors": 0,
+          "duration": "~22s",
+          "summary": "5/5 runs exitosos — Shopify 531 ord + ML 62 ord + Meta $30M ads + 3 POS",
+          "sales": 0
+        },
+        {
+          "date": "2026-04-11",
+          "status": "success",
+          "tasks": 8,
+          "errors": 0,
+          "duration": "~20s",
+          "summary": "8/8 runs — Integración MercadoLibre completada + PWA instalable en iPhone",
+          "sales": 0
+        },
+        {
+          "date": "2026-04-10",
+          "status": "success",
+          "tasks": 9,
+          "errors": 0,
+          "duration": "~22s",
+          "summary": "9/9 runs — Token Meta renovado + integración Shopify + cash flow COD/prepago",
+          "sales": 0
+        },
+        {
+          "date": "2026-04-09",
+          "status": "fail",
+          "tasks": 5,
+          "errors": 5,
+          "duration": "~18s",
+          "summary": "0/5 runs — Meta Ads token expirado (OAuthException). Fallback agregado.",
+          "sales": 0
+        },
+        {
+          "date": "2026-04-08",
+          "status": "fail",
+          "tasks": 5,
+          "errors": 5,
+          "duration": "~16s",
+          "summary": "0/5 runs — Meta Ads token inválido desde este día",
+          "sales": 0
+        },
+        {
+          "date": "2026-04-07",
+          "status": "fail",
+          "tasks": 5,
+          "errors": 5,
+          "duration": "~18s",
+          "summary": "0/5 runs — Meta Ads fallo, no se detectó hasta el 10/04",
+          "sales": 0
+        },
+        {
+          "date": "2026-04-06",
+          "status": "success",
+          "tasks": 5,
+          "errors": 4,
+          "duration": "~22s",
+          "summary": "1/5 runs — Semana Santa, ultimo run exitoso antes del fallo de Meta",
+          "sales": 0
+        },
+        {
+          "date": "2026-04-05",
+          "status": "success",
+          "tasks": 5,
+          "errors": 0,
+          "duration": "~23s",
+          "summary": "5/5 runs exitosos",
+          "sales": 0
+        },
+        {
+          "date": "2026-04-04",
+          "status": "success",
+          "tasks": 5,
+          "errors": 1,
+          "duration": "~22s",
+          "summary": "4/5 runs exitosos",
+          "sales": 0
+        },
+        {
+          "date": "2026-04-03",
+          "status": "success",
+          "tasks": 5,
+          "errors": 0,
+          "duration": "~22s",
+          "summary": "5/5 runs exitosos",
+          "sales": 0
+        },
+        {
+          "date": "2026-04-02",
+          "status": "success",
+          "tasks": 3,
+          "errors": 0,
+          "duration": "~22s",
+          "summary": "3/3 runs exitosos",
+          "sales": 0
+        }
+      ],
+      "metrics": {
+        "success_rate": 72.7,
+        "avg_duration": "~21s",
+        "streak": 3,
+        "errors_today": 0
+      },
+      "sales": {
+        "total": 0,
+        "conversion_rate": 0.0,
+        "by_date": {},
+        "last_checked": "2026-04-13T08:00:00"
+      }
+    }
   ],
-  "last_heartbeat": "2026-03-30T11:24:56.459273"
+  "last_heartbeat": "2026-04-13T08:00:00"
 }
