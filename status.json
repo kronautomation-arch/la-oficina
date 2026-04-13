@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T10:01:33",
+  "last_updated": "2026-04-13T10:01:45",
   "automations": [
     {
       "id": "campana-tenis",
@@ -9,9 +9,18 @@
       "status": "idle",
       "schedule": "10:00 diario",
       "current_task": "Completado — próxima ejecución mañana 10:00",
-      "total_tasks": 1150,
-      "total_executions": 23,
+      "total_tasks": 1200,
+      "total_executions": 24,
       "history": [
+        {
+          "date": "2026-04-13",
+          "status": "success",
+          "tasks": 50,
+          "errors": 0,
+          "duration": "1m 41s",
+          "summary": "50/50 mensajes enviados — Progreso: 1200/5033 (23.8%)",
+          "sales": 0
+        },
         {
           "date": "2026-04-12",
           "status": "success",
@@ -223,17 +232,16 @@
       "metrics": {
         "success_rate": 100.0,
         "avg_duration": "1m 35s",
-        "streak": 23,
+        "streak": 24,
         "errors_today": 0
       },
       "sales": {
         "total": 0,
         "conversion_rate": 0.0,
         "by_date": {},
-        "last_checked": "2026-04-12T10:01:33"
+        "last_checked": "2026-04-13T10:01:45"
       }
-    }
-    ,
+    },
     {
       "id": "reporte-marfil",
       "name": "Dashboard Marfil",
