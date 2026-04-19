@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T07:00:59",
+  "last_updated": "2026-04-19T10:01:43",
   "automations": [
     {
       "id": "campana-tenis",
@@ -9,9 +9,18 @@
       "status": "idle",
       "schedule": "10:00 diario",
       "current_task": "Completado — próxima ejecución mañana 10:00",
-      "total_tasks": 1450,
-      "total_executions": 29,
+      "total_tasks": 1500,
+      "total_executions": 30,
       "history": [
+        {
+          "date": "2026-04-19",
+          "status": "success",
+          "tasks": 50,
+          "errors": 0,
+          "duration": "1m 38s",
+          "summary": "50/50 mensajes enviados — Progreso: 1500/5033 (29.8%)",
+          "sales": 0
+        },
         {
           "date": "2026-04-18",
           "status": "success",
@@ -277,14 +286,14 @@
       "metrics": {
         "success_rate": 100.0,
         "avg_duration": "1m 35s",
-        "streak": 29,
+        "streak": 30,
         "errors_today": 0
       },
       "sales": {
         "total": 0,
         "conversion_rate": 0.0,
         "by_date": {},
-        "last_checked": "2026-04-18T10:01:42"
+        "last_checked": "2026-04-19T10:01:43"
       }
     },
     {
