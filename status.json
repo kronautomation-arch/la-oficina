@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-28T10:01:59",
+  "last_updated": "2026-04-29T07:00:03",
   "automations": [
     {
       "id": "campana-tenis",
@@ -506,9 +506,9 @@
       "name": "Claude Code News",
       "description": "Digest diario por Telegram: Claude Code + MCP + ecommerce AI",
       "icon": "🗞",
-      "status": "idle",
+      "status": "error",
       "schedule": "Diario 7:00 AM + /now on-demand",
-      "current_task": "Próxima ejecución mañana 7:00 AM",
+      "current_task": "⚠️ ConnectError: [Errno 11001] getaddrinfo failed",
       "total_tasks": 94,
       "total_executions": 14,
       "history": [
