@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T07:00:03",
+  "last_updated": "2026-04-29T08:14:16",
   "automations": [
     {
       "id": "campana-tenis",
@@ -506,12 +506,20 @@
       "name": "Claude Code News",
       "description": "Digest diario por Telegram: Claude Code + MCP + ecommerce AI",
       "icon": "🗞",
-      "status": "error",
+      "status": "idle",
       "schedule": "Diario 7:00 AM + /now on-demand",
-      "current_task": "⚠️ ConnectError: [Errno 11001] getaddrinfo failed",
-      "total_tasks": 94,
-      "total_executions": 14,
+      "current_task": "Próxima ejecución mañana 7:00 AM",
+      "total_tasks": 101,
+      "total_executions": 15,
       "history": [
+        {
+          "date": "2026-04-29",
+          "status": "success",
+          "tasks": 7,
+          "errors": 0,
+          "duration": "57s",
+          "summary": "7 noticias enviadas (daily) — 98 items scanned"
+        },
         {
           "date": "2026-04-28",
           "status": "success",
@@ -620,7 +628,7 @@
       "metrics": {
         "success_rate": 100.0,
         "avg_duration": "0m 59s",
-        "streak": 13
+        "streak": 14
       }
     }
   ],
