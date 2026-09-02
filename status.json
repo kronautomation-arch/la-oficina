@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T07:00:38",
+  "last_updated": "2026-09-02T07:01:49",
   "automations": [
     {
       "id": "campana-tenis",
@@ -623,12 +623,20 @@
       "name": "Claude Code News",
       "description": "Digest diario por Telegram: Claude Code + MCP + ecommerce AI",
       "icon": "🗞",
-      "status": "error",
+      "status": "idle",
       "schedule": "Diario 7:00 AM + /now on-demand",
-      "current_task": "⚠️ RankingFailed: rank: los 74 items quedaron sin score real — Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the",
-      "total_tasks": 932,
-      "total_executions": 143,
+      "current_task": "Próxima ejecución mañana 7:00 AM",
+      "total_tasks": 939,
+      "total_executions": 144,
       "history": [
+        {
+          "date": "2026-09-02",
+          "status": "success",
+          "tasks": 7,
+          "errors": 0,
+          "duration": "1m 45s",
+          "summary": "7 noticias enviadas (daily) — 95 items scanned"
+        },
         {
           "date": "2026-08-31",
           "status": "success",
@@ -1340,19 +1348,11 @@
           "errors": 0,
           "duration": "1m 2s",
           "summary": "7 noticias enviadas (daily) — 63 items scanned"
-        },
-        {
-          "date": "2026-06-02",
-          "status": "success",
-          "tasks": 5,
-          "errors": 0,
-          "duration": "56s",
-          "summary": "5 noticias enviadas (daily) — 61 items scanned"
         }
       ],
       "metrics": {
         "success_rate": 100.0,
-        "avg_duration": "1m 8s",
+        "avg_duration": "1m 9s",
         "streak": 91
       }
     }
