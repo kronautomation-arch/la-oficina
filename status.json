@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T21:32:48.371673",
+  "last_updated": "2026-10-28T07:01:46.451053",
   "automations": [
     {
       "id": "campana-tenis",
@@ -624,11 +624,19 @@
       "description": "Digest diario por Telegram: Claude Code + MCP + ecommerce AI",
       "icon": "🗞",
       "status": "idle",
-      "schedule": "Railway · 7/9/12/14/15h COT + /now",
-      "current_task": "Migrado a Railway — próxima ejecución 7:00 AM",
-      "total_tasks": 1323,
-      "total_executions": 199,
+      "schedule": "Diario 7:00 AM + /now on-demand",
+      "current_task": "Próxima ejecución mañana 7:00 AM",
+      "total_tasks": 1330,
+      "total_executions": 200,
       "history": [
+        {
+          "date": "2026-10-28",
+          "status": "success",
+          "tasks": 7,
+          "errors": 0,
+          "duration": "1m 42s",
+          "summary": "7 noticias enviadas (daily) — 102 items scanned"
+        },
         {
           "date": "2026-10-27",
           "status": "success",
@@ -1340,14 +1348,6 @@
           "errors": 0,
           "duration": "1m 14s",
           "summary": "7 noticias enviadas (daily) — 96 items scanned"
-        },
-        {
-          "date": "2026-07-28",
-          "status": "success",
-          "tasks": 7,
-          "errors": 0,
-          "duration": "1m 8s",
-          "summary": "7 noticias enviadas (daily) — 89 items scanned"
         }
       ],
       "metrics": {
@@ -1357,5 +1357,5 @@
       }
     }
   ],
-  "last_heartbeat": "2026-10-27T21:32:48.371673"
+  "last_heartbeat": "2026-10-28T07:01:46.451053"
 }
